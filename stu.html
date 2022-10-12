@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Học html miễn phí tại freetuts.net</h1>
+            <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+                <label>Số lượng</label>
+                0<input type="range" id="a" value="50">100
+                <br>
+                <label>Đơn giá</label>
+                <input type="number" id="b" disabled="disabled" value="5000">
+                <br>
+                <label>Tổng tiền</label>
+                <output name="x" for="a*b"></output>đ
+            </form>
+
+            <p>
+                Nếu trình duyệt hỗ trợ:<br>
+                Bạn sẽ nhìn thấy khung chọn thời gian và ngày tháng.
+                </p>
+                 
+                <form action="/demo/action_page.php">
+                Chọn ngày sinh (thời gian và ngày tháng):
+                <input type="datetime-local" name="bdaytime">
+                <input type="submit" value="Gửi">
+                </form>
+                <form action="/upload.php" method="post" enctype="multipart/form-data">
+                    Chọn file để upload:
+                    <input type="file" name="fileupload" id="fileupload">
+                    <input type="submit" value="Đăng ảnh" name="submit">
+                </form>
+
+                <p hidden>Đoạn văn bản này sẽ bị ẩn đi.</p>
+<p>Đoạn văn bản này sẽ hiển thị.</p>
+<p><b>Lưu ý:</b> Thuộc tính hidden không được hỗ trợ trong phiên bản IE10 và các phiên bản trước đó.</p>
+
+</body>
+</html>
